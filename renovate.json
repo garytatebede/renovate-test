@@ -5,5 +5,6 @@
       "http://repos.ad.bedegaming.com:8081/repository/nuget-components/",
       "http://repos.ad.bedegaming.com:8081/"
     ]
-  }
+  },
+  "commitMessagePrefix": "[Patch]"
 }
