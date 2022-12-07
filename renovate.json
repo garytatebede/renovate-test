@@ -1,9 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "hostRules": [
-    {
-      "matchHost": "http://repos.ad.bedegaming.com:8081",
-      "hostType": "nuget"
-    }
-  ]
+  "nuget": {
+   "registryUrls": [
+      "http://repos.ad.bedegaming.com:8081/repository/nuget-components/",
+     "http://repos.ad.bedegaming.com:8081/",
+    ]
+  }
 }
