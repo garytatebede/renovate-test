@@ -1,3 +1,9 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "nuget": {
+    "registryUrls": [
+      "http://repos.ad.bedegaming.com:8081/repository/nuget-components/",
+      "http://repos.ad.bedegaming.com:8081/"
+    ]
+  }
 }
